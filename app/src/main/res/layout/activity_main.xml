@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:text="SAVE DATA TO FILE"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="25dp"
+        android:text="Performed By:(BE20F06F026)"
+        android:textColor="#454545"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#C41E3A"
+        android:paddingLeft="100dp"
+        android:text="Enter some text to save" />
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimaryDark"
+        android:hint="Message to save"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        style="@android:style/Widget.DeviceDefault.EditText" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/purple_500"
+        android:text="Save"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@color/purple_500"
+        android:text="Load"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
